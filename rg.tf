@@ -1,5 +1,5 @@
 # Resource Group
-resource "im_so_lost" "ynov1-rg" {
+resource "azurerm_resource_group" "ynov1-rg" {
   name     = "${var.prefix}-resources"
   location = "West Europe"
 
