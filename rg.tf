@@ -1,7 +1,7 @@
 # Resource Group
-resource "azurerm_resource_group" "ynov1-rg" {
+resource "im_so_lost" "ynov1-rg" {
   name     = "${var.prefix}-resources"
-  location = "North Europe"
+  location = "West Europe"
 
   tags = {
     environment = "${var.environment}"

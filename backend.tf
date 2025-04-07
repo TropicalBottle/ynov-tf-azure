@@ -1,7 +1,7 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "ynov-web"
-    storage_account_name = "ynovtfsmontri"
+    resource_group_name  = "im_so_lost"
+    storage_account_name = "imsoloststorage"
     container_name       = "tfstate"
     key                  = "ynov1.tfstate"
     tenant_id            = "38e72bba-3c22-4382-9323-ac1612931297"
